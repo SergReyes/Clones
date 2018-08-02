@@ -1,0 +1,257 @@
+html{
+    background: url("https://insideevs.com/wp-content/uploads/2017/08/18.jpg")no-repeat center center fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    margin:auto;
+    width:100%;
+    text-transform: uppercase;
+}
+
+#logo img{
+    width: 100px;
+    float:left;
+    position: absolute;
+    padding-left: 12px;
+    padding-top:3px;
+}
+
+#Middle{
+    text-align: center;
+    margin-top:15px;
+    margin-right: 25px;
+}
+
+#Right{
+    float:right;
+    margin-top:-20px;
+    margin-right: 20px;
+}
+
+.middle-nav{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.middle-nav:hover{
+    color: #666;
+    transition: all .3s ease;
+}
+
+#bar{
+    font-size:1em;
+}
+
+#Content{
+    margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#des {
+    margin-top:85px;
+    text-align: center;
+    color: #222;
+}
+#line-1{
+    font-size:2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#line-2{
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+#button{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    
+}
+
+.btn1{
+    padding-right: 60px;
+    padding-left:60px;
+}
+
+#btn2{
+    padding-right: 59px;
+    padding-left: 59px;
+}
+
+#btn3{
+    padding-right: 66px;
+    padding-left: 66px
+}
+
+#btn4{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+
+.buttons{
+    margin-left:2px;
+    margin-right:2px;
+    border-radius: 2rem;
+    color:#222;
+    padding-top:10px;
+    padding-bottom:10px;
+    max-width: 100px;
+    border: 3px solid #222;
+}
+
+
+#buttons__1{
+    background-color: #222;
+    color: white;
+    padding-right: 60px;
+    padding-left:60px;
+}
+#buttons__1:hover{
+    background-color:black;
+    border: 3px solid black;
+    transition: all .2s ease;
+}
+
+
+#button a{
+    text-decoration: none;
+    font-size: 0.75em;
+    font-weight: 1000;
+}
+
+.buttons:hover{
+    background-color:#222;
+    color:white;
+    transition: all .2s ease;
+}
+
+#click{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+#click-spec{
+    color: #222;
+}
+
+#click a:link{
+    text-decoration: none;
+}
+
+#click a:hover{
+    color: #666;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width:99%;
+    height:50px;
+    text-align: center;
+}
+
+#footer-link a{
+  text-decoration: none;
+  color:white;
+  font-size:.75em;
+  
+}
+
+.footer-links{
+    margin-bottom:15px;
+}
+
+#flag{
+    width:16px;
+    height: 11px;
+    margin-bottom:-2px;
+
+}
+
+.fa-circle{
+    font-size: 3.5px;
+    color: gray;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.bar{
+    background-color:gray;
+    width:200px;
+    height: 1px;
+}
+
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: none;
+    color:#fff;
+    transform: scale(1.2,1);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    cursor: pointer;
+}
+
+.bar-nav {
+    position: relative;
+    display: inline-block;
+}
+
+.title-bar{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.header-dropdown{
+    padding-bottom:50px;
+    padding-top:20px;
+}
+
+#x{
+    margin-left: 200px;
+    cursor: pointer;
+    font-size: 20px;
+    color:black;
+    padding-right:5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:-20px;
+    top:-8px;
+    line-height:20px;
+    padding-left:20px;
+    padding-right: 20px;
+    height: 870px;
+    font-weight:700;
+    font-size:12px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;   
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}

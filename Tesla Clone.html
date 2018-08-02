@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tesla Clone</title>
+    <link rel="stylesheet" href="Tesla Clone.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script>
+        
+        function Dropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    }
+        
+       x.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+    </script>
+</head>
+
+
+<body>
+
+    
+<div id="container">
+    <div id="header">
+
+            <div id="logo">
+               <a href="https://www.tesla.com/"><img src="https://github.com/jordanhudgens/tesla-html-css-clone/blob/master/img/logo.png?raw=true" alt="Logo"></a> <!--Black logo tesla https://www.freepnglogos.com/uploads/tesla-logo-png-20.png-->
+            </div>
+            
+            <div id="Middle">
+                <a class="middle-nav" href="https://www.tesla.com/models">Model S</a>
+                <a class="middle-nav" href="https://www.tesla.com/modelx">Model X</a>
+                <a class="middle-nav" href="https://www.tesla.com/model3">Model 3</a>
+                <a class="middle-nav" href="https://www.tesla.com/roadster">Roadster</a>
+                <a class="middle-nav" href="https://www.tesla.com/energy">Energy</a>
+            </div>
+
+            <div id="Right">
+                <a class="middle-nav" href="https://shop.tesla.com/us/en.html?tesref=true">Shop</a>
+                <a class="middle-nav" href="https://auth.tesla.com/login">Sign In</a>
+            
+                <div class="bar-nav middle-nav" >
+                        <i onclick="Dropdown()" class="fas fa-bars dropbtn" id="btn"></i>
+                        <div id="myDropdown" class="dropdown-content">
+                                <div class="header-dropdown"><i onclick="Dropdown()" class="fas fa-times" id='x' ></i></div>
+                          <a class='title-bar' href="https://www.tesla.com/blog">News</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/inventory/new/ms">New Inventory</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/inventory/used/ms">Used Inventory</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/charging">Charging</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/findus?v=2&amp;bounds=62.43003829347238%2C-57.518555875000004%2C6.9242048731625205%2C-141.014649625&amp;zoom=4&amp;filters=store%2Cservice%2Csupercharger%2Cdestination%20charger">Find Us</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/semi">Semi</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/carbonimpact">Carbon Inpact</a><div class='bar'></div>
+                          <a class='title-bar' href="https://www.tesla.com/support">Support</a><div class='bar'></div>
+                        </div>
+                    </div>
+            </div>
+
+    </div>
+</div>
+<div id="Content">
+    <div id="des">
+        <div id="line-1">Model S</div>
+        <div id="line-2">The quickest car on the road</div>
+    </div>
+
+    <div id="button">
+        <a href="https://www.tesla.com/models/design">
+            <span  class="buttons" id="buttons__1"  >Order Now</span></a>
+        <a class="buttons" href="https://www.tesla.com/inventory/new/ms">
+            <span id='btn2'>Learn More</span></a>  
+        <a class="buttons" href="https://www.tesla.com/inventory/used/ms">
+            <span id='btn3' >Test Drive</span></a>
+        <a class="buttons" href="https://www.tesla.com/drive">
+            <span id='btn4' >Shop Inventory</span></a>
+    </div>
+
+    <div id="click">
+        <a id="click-spec" href="https://www.tesla.com/updates">Get The Newsletter <i class="fas fa-caret-right"></i></a>
+    </div>
+
+</div>
+
+
+<div id="footer">
+        <div id="footer-link">
+            <a class="footer-links" href="https://www.tesla.com/about">Tesla &copy; 2018</a> <i id='circle' class="fas fa-circle"></i>          
+            <a class="footer-links" href="https://www.tesla.com/about/legal">Privacy &amp; Legal</a> <i class="fas fa-circle "></i>
+            <a class="footer-links" href="https://www.tesla.com/contact">Contact</a> <i class="fas fa-circle "></i>
+            <a class="footer-links" href="https://www.tesla.com/careers">Careers</a><i class="fas fa-circle "></i>
+            <a class="footer-links" href="https://www.tesla.com/updates">Get Newsletter</a><i class="fas fa-circle "></i>
+            <a class="footer-links" href="https://www.tesla.com/forums">Forums</a><i class="fas fa-circle "></i>
+            <a class="footer-links" href="https://www.tesla.com/findus/list">Locations</a><i class="fas fa-circle "></i>
+            <a class="footer-links" href="#"><img id="flag" src="https://github.com/jordanhudgens/tesla-html-css-clone/blob/master/img/flag.gif?raw=true" alt="US Flag"></a>
+        </div>
+</div> 
+</body>
+
+</html>
